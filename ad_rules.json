@@ -1,0 +1,75 @@
+[
+  {
+    "ad_id": "FAA-2025-23-53",
+    "issuing_authority": "FAA",
+    "title": "McDonnell Douglas DC-10 and MD-11 Aircraft",
+    "effective_date": "2025-01-15",
+    "summary": "This AD applies to McDonnell Douglas DC-10 series, MD-10 series, and MD-11 series aircraft. It addresses safety concerns related to aircraft systems and requires specific inspections or modifications.",
+    "applicability_rules": {
+      "aircraft_models": [
+        "DC-10-10",
+        "DC-10-10F",
+        "DC-10-15",
+        "DC-10-30",
+        "DC-10-30F",
+        "DC-10-40",
+        "DC-10-40F",
+        "MD-10-10F",
+        "MD-10-30F",
+        "MD-11",
+        "MD-11F"
+      ],
+      "msn_constraints": {
+        "type": "all"
+      },
+      "excluded_if_modifications": [],
+      "required_modifications": [],
+      "additional_constraints": {}
+    }
+  },
+  {
+    "ad_id": "EASA-2025-0254",
+    "issuing_authority": "EASA",
+    "title": "Airbus A320 and A321 Family Aircraft - Structural Inspections",
+    "effective_date": "2025-02-01",
+    "summary": "This AD applies to certain Airbus A320 and A321 family aircraft. It addresses structural integrity concerns and may exclude aircraft with certain production modifications already incorporated.",
+    "applicability_rules": {
+      "aircraft_models": [
+        "A320-211",
+        "A320-212",
+        "A320-214",
+        "A320-215",
+        "A320-216",
+        "A320-231",
+        "A320-232",
+        "A320-233",
+        "A321-111",
+        "A321-112",
+        "A321-131"
+      ],
+      "msn_constraints": {
+        "type": "all"
+      },
+      "excluded_if_modifications": [
+        {
+          "mod_id": "mod 24591",
+          "aliases": ["24591", "modification 24591", "mod24591"],
+          "description": "Production modification 24591 - if incorporated at production, AD does not apply"
+        },
+        {
+          "mod_id": "SB A320-57-1089",
+          "aliases": ["A320-57-1089", "SBA320-57-1089", "SB A320-57-1089 Rev 04"],
+          "description": "Service Bulletin A320-57-1089 (any revision) - if applied, AD does not apply"
+        },
+        {
+          "mod_id": "mod 24977",
+          "aliases": ["24977", "modification 24977", "mod24977"],
+          "description": "Production modification 24977 - if incorporated at production, AD does not apply"
+        }
+      ],
+      "required_modifications": [],
+      "additional_constraints": {}
+    }
+  }
+]
+

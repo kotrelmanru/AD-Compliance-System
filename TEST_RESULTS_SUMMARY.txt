@@ -1,0 +1,107 @@
+================================================================================
+              AIRWORTHINESS DIRECTIVE COMPLIANCE TEST RESULTS
+================================================================================
+
+Test Date: December 2025
+ADs Evaluated: FAA-2025-23-53, EASA-2025-0254
+Aircraft Tested: 10 configurations
+
+================================================================================
+                            DETAILED RESULTS
+================================================================================
+
+Aircraft #1: MD-11 (MSN: 48123)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ✅ YES (Affected - must comply)
+└─ EASA-2025-0254:  ⚪ NOT APPLICABLE (Model not in scope)
+
+Aircraft #2: DC-10-30F (MSN: 47890)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ✅ YES (Affected - must comply)
+└─ EASA-2025-0254:  ⚪ NOT APPLICABLE (Model not in scope)
+
+Aircraft #3: Boeing 737-800 (MSN: 30123)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ⚪ NOT APPLICABLE (Model not in scope)
+
+Aircraft #4: A320-214 (MSN: 5234)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ✅ YES (Affected - must comply)
+
+Aircraft #5: A320-232 (MSN: 6789)
+├─ Modifications: mod 24591 (production)
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ❌ NO (Excluded - has production mod 24591)
+
+Aircraft #6: A320-214 (MSN: 7456)
+├─ Modifications: SB A320-57-1089 Rev 04
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ❌ NO (Excluded - has service bulletin)
+
+Aircraft #7: A321-111 (MSN: 8123)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ✅ YES (Affected - must comply)
+
+Aircraft #8: A321-112 (MSN: 364)
+├─ Modifications: mod 24977 (production)
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ❌ NO (Excluded - has production mod 24977)
+
+Aircraft #9: A319-100 (MSN: 9234)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ⚪ NOT APPLICABLE (Model not in scope)
+└─ EASA-2025-0254:  ⚪ NOT APPLICABLE (Model not in scope)
+
+Aircraft #10: MD-10-10F (MSN: 46234)
+├─ Modifications: None
+├─ FAA-2025-23-53:  ✅ YES (Affected - must comply)
+└─ EASA-2025-0254:  ⚪ NOT APPLICABLE (Model not in scope)
+
+================================================================================
+                          SUMMARY STATISTICS
+================================================================================
+
+FAA AD 2025-23-53 (DC-10/MD-10/MD-11 Aircraft):
+  ✅ Affected:           3 aircraft (30%)
+  ⚪ Not Applicable:     7 aircraft (70%)
+  
+  Affected Models: MD-11, DC-10-30F, MD-10-10F
+
+EASA AD 2025-0254 (A320/A321 Structural Inspections):
+  ✅ Affected:           2 aircraft (20%)
+  ❌ Excluded:           3 aircraft (30%) - have production mods/SBs
+  ⚪ Not Applicable:     5 aircraft (50%)
+  
+  Affected Models: A320-214 #5234, A321-111 #8123
+  Excluded Models: A320-232 (mod 24591), A320-214 #7456 (SB), A321-112 (mod 24977)
+
+================================================================================
+                              KEY FINDINGS
+================================================================================
+
+1. FAA AD has broad applicability - affects entire DC-10/MD-10/MD-11 families
+   with no MSN or modification exclusions.
+
+2. EASA AD has targeted applicability - affects A320/A321 families but excludes
+   aircraft with specific production modifications or service bulletins that
+   already address the structural issue.
+
+3. Three-state logic is essential:
+   - "YES" = Must comply
+   - "NO" = Model matches but excluded (already has fix)
+   - "NOT APPLICABLE" = Model outside AD scope
+
+4. Modification tracking is critical - 30% of Airbus aircraft are excluded
+   from EASA AD due to existing modifications.
+
+================================================================================
+
+Legend:
+  ✅ YES = Aircraft affected by AD (must comply)
+  ❌ NO = Aircraft excluded by modifications (already has fix)
+  ⚪ NOT APPLICABLE = Aircraft model not in AD scope
+
+================================================================================

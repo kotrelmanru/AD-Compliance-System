@@ -1,0 +1,178 @@
+[
+  {
+    "aircraft_model": "MD-11",
+    "msn": 48123,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "yes",
+        "is_affected": true,
+        "reason": "Model check: Aircraft model 'MD-11' is in the affected models list; MSN check: MSN 48123 meets the constraints; Excluded mods check: No excluded modifications specified; Required mods check: No required modifications specified"
+      },
+      "EASA-2025-0254": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'MD-11' is not in the affected models list"
+      }
+    }
+  },
+  {
+    "aircraft_model": "DC-10-30F",
+    "msn": 47890,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "yes",
+        "is_affected": true,
+        "reason": "Model check: Aircraft model 'DC-10-30F' is in the affected models list; MSN check: MSN 47890 meets the constraints; Excluded mods check: No excluded modifications specified; Required mods check: No required modifications specified"
+      },
+      "EASA-2025-0254": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'DC-10-30F' is not in the affected models list"
+      }
+    }
+  },
+  {
+    "aircraft_model": "Boeing 737-800",
+    "msn": 30123,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'Boeing 737-800' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'Boeing 737-800' is not in the affected models list"
+      }
+    }
+  },
+  {
+    "aircraft_model": "A320-214",
+    "msn": 5234,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A320-214' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "yes",
+        "is_affected": true,
+        "reason": "Model check: Aircraft model 'A320-214' is in the affected models list; MSN check: MSN 5234 meets the constraints; Excluded mods check: Aircraft does not have any excluded modifications; Required mods check: No required modifications specified"
+      }
+    }
+  },
+  {
+    "aircraft_model": "A320-232",
+    "msn": 6789,
+    "modifications": [
+      "mod 24591 (production)"
+    ],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A320-232' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "no",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A320-232' is in the affected models list; MSN check: MSN 6789 meets the constraints; Excluded mods check: Aircraft has excluded modification: mod 24591 (matched: mod 24591 (production))"
+      }
+    }
+  },
+  {
+    "aircraft_model": "A320-214",
+    "msn": 7456,
+    "modifications": [
+      "SB A320-57-1089 Rev 04"
+    ],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A320-214' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "no",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A320-214' is in the affected models list; MSN check: MSN 7456 meets the constraints; Excluded mods check: Aircraft has excluded modification: SB A320-57-1089 (matched: SB A320-57-1089 Rev 04)"
+      }
+    }
+  },
+  {
+    "aircraft_model": "A321-111",
+    "msn": 8123,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A321-111' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "yes",
+        "is_affected": true,
+        "reason": "Model check: Aircraft model 'A321-111' is in the affected models list; MSN check: MSN 8123 meets the constraints; Excluded mods check: Aircraft does not have any excluded modifications; Required mods check: No required modifications specified"
+      }
+    }
+  },
+  {
+    "aircraft_model": "A321-112",
+    "msn": 364,
+    "modifications": [
+      "mod 24977 (production)"
+    ],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A321-112' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "no",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A321-112' is in the affected models list; MSN check: MSN 364 meets the constraints; Excluded mods check: Aircraft has excluded modification: mod 24977 (matched: mod 24977 (production))"
+      }
+    }
+  },
+  {
+    "aircraft_model": "A319-100",
+    "msn": 9234,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A319-100' is not in the affected models list"
+      },
+      "EASA-2025-0254": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'A319-100' is not in the affected models list"
+      }
+    }
+  },
+  {
+    "aircraft_model": "MD-10-10F",
+    "msn": 46234,
+    "modifications": [],
+    "ad_results": {
+      "FAA-2025-23-53": {
+        "status": "yes",
+        "is_affected": true,
+        "reason": "Model check: Aircraft model 'MD-10-10F' is in the affected models list; MSN check: MSN 46234 meets the constraints; Excluded mods check: No excluded modifications specified; Required mods check: No required modifications specified"
+      },
+      "EASA-2025-0254": {
+        "status": "not applicable",
+        "is_affected": false,
+        "reason": "Model check: Aircraft model 'MD-10-10F' is not in the affected models list"
+      }
+    }
+  }
+]
